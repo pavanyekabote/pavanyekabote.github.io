@@ -1,0 +1,22 @@
+<div class="container vh-100 py-3 d-flex align-items-center text-center flex-column">
+
+    <img src="assets/images/avatar.jpg" alt="" class="rounded-circle border border-3 border-primary mt-5" style="max-width: 150px;">    
+    <h3 class="mt-4 text-primary">Pavan Kumar</h3>
+    <h3 class="text-primary mt-n2">Yekabote</h3>
+    <p class="text-center text-gray mt-3">Software Developer & Architect <br> I <i class="fa fa-heart text-danger px-1"></i> solving problems.</p>
+    <div class="mt-4 hstack gap-4 d-flex justify-content-center">
+        <a href="https://www.linkedin.com/in/pavan-kumar-yekabote" target="_blank"><i class="text-primary fab fa-linkedin fa-2x"></i></a>
+        <a href="https://github.com/pavanyekabote/" target="_blank"><i class="text-primary fab fa-github fa-2x"></i></a>
+        <a href="https://twitter.com/pavan_yekabote" target="_blank"><i class="text-primary text-decoration-none fab fa-twitter fa-2x"></i></a>
+        <a href="https://medium.com/@yekabotep"><i class="text-primary fab fa-medium fa-2x"></i></a>
+    </div>
+
+    <div class="tags mt-5">
+        <span class="badge text-bg-primary m-1" *ngFor="let skill of skills">{{skill}}</span>
+    </div>
+
+    <div class="mt-5 nav">
+        <a href="" class="text-primary d-inline-block border-1 border-end border-light px-2">Home</a>
+        <a href="" class="text-primary d-inline-block px-2">Blog</a>
+    </div>
+</div>
