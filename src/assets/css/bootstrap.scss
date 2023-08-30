@@ -1,0 +1,33 @@
+
+// $font-family-sans-serif: 'Candal', sans-serif;
+$headings-font-family: 'Candal', sans-serif;
+$primary: #40513B;
+$secondary: #EDF1D6;
+$light: rgb(151, 151, 151);
+$dark: rgb(97, 97, 97);
+
+
+// Spacers
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+$badge-padding-y: .6em !default;
+$badge-padding-x: .8em !default;
+$badge-font-weight: normal !default;
+$badge-font-size: .7em !default;
+
+$line-height-base: 1.5;
+$headings-margin-bottom: $spacer * 1;
+$enable-negative-margins: true;
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
